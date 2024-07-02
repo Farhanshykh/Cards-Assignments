@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Libre Franklin", sans-serif;
+}
+
+.main{
+    position: relative;
+}
+
+.main img{
+    height: 800px;
+    width: 100vw;
+}
+
+
+.main > h1{
+    position: absolute;
+    top: 15%;
+    color: white;
+    left: 40%;
+}
+
+.cards{
+    width: 100%;
+    position: absolute;
+    top: 35%;
+}
+
+.card{
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+    margin: 0 5px;
+    padding-right: 50px;
+    background-color: white;
+    margin-left: 22px;
+}
+
+.card > img{
+    height: 200px;
+    width: 280px;
+    margin: 10px;
+}
+
+.card h2{
+    line-height: 50px;
+}
+
+.card p{
+    font-size: 12px;
+}
+
+.p2{
+    font-size: 8px;
+}
+
+.card2{
+    position: absolute;
+    top: 1px;
+}
